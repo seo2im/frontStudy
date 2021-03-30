@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Event</title>
+    </head>
+    <body>
+        <div id="1" class="bubbling">
+            <div id="2" class="bubbling">
+                <button id="3" class="bubbling">
+                    Bubbling
+                </button>
+            </div>
+        </div>
+
+        <div id="1" class="capturing">
+            <div id="2" class="capturing">
+                <button id="3" class="capturing">
+                    Capturing
+                </button>
+            </div>
+        </div>
+
+        <ul id="list">
+            <li>
+                <button>1</button>
+            </li>
+            <li>
+                <button>2</button>
+            </li>
+        </ul>
+
+        <script type="text/javascript" src="eventbubling.js"></script>
+        <script type="text/javascript" src="eventcapturing.js"></script>
+        <script type="text/javascript" src="eventdelegation.js"></script>
+    </body>
+</html>
