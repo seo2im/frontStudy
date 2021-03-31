@@ -15,6 +15,20 @@ console.log(this === window); //window 객체가 호출자
 
 위와같은 동작은 객체를 생성할 때 일반적인 객체지향방식과 동일한 방식으로 동작한다. 다만 아래 경우를 생각해야한다.
 
+### new keyword function
+
+`new` keyword로 만들어진 함수의 `this`는 기본적으로 빈 객체이다. 다만 해당 property에 값을 추가하는 순간 해당 객체는 값을 가지게 된다.
+
+```javascript
+function func () {
+    console.log(this) //undefined
+    this.some = 'some'
+    console.log(this) //have some property
+}
+
+new func();
+```
+
 ### Bind / call / apply
 
 ```javascript
@@ -43,17 +57,3 @@ list.map(function (e) {
 다만 es6이상의 문법(arrow function)에선 위 동작이 자연스럽게 이루어진다. 따라서 위와 같은 동작을 원한다면 arrow function을 활용하는 편이 낫다. 물론 그런 형태의 동작을 원하는게 아니라면 기존 function문법을 사용하자.
 
 위와같이 this를 지정해주는 방식은 `bind()`뿐만 아니라 `apply()`나 `call()`에도 동일시 된다.
-
-### new keyword function
-
-`new` keyword로 만들어진 함수의 `this`는 기본적으로 빈 객체이다. 다만 해당 property에 값을 추가하는 순간 해당 객체는 값을 가지게 된다.
-
-```javascript
-function func () {
-    console.log(this) //undefined
-    this.some = 'some'
-    console.log(this) //have some property
-}
-
-new func();
-```
