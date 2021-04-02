@@ -29,10 +29,8 @@ y.log('word')  //y:word 출력
 
 x.log = function () { console.log(this.key + ':' + 'dummy') }
 y.log()   //y:undefined 출력
-
-x.prototype.log = function () { console.log(this.key + ':' + 'proto dummy') }
-
-
 ```
 
-위를 보면 
+위를 보면 proto에 정의되지 않은 함수가 상송에서 어떠한 문제를 발생시키는지 알 수 있을것이다.(엄밀히 말하면 문제라기보단 실제 상속과 다르게 동작하는 부분의 모호성이다)
+
+또한 prototype에 정의된 함수는 사본을 만들지 않으므로(객체 메소드는 사본을 하나 더 구성함)메모리 효율이 높고 빠르다.
