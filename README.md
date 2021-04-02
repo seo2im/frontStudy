@@ -10,3 +10,6 @@ This repository is frontend education information of author
 ### [this](https://github.com/seo2im/frontStudy/tree/master/this)
 1. what is `this` in javascript
 2. `this`'s mean in different format.
+
+### [prototype](https://github.com/seo2im/frontStudy/tree/master/prototype)
+1. prototype
