@@ -1,4 +1,8 @@
 # javascript
+
+1. [What is Javascript](#chapter-1)
+
+## What is Javascript <a id="chapter-1"></a>
 ### 스크립트 언어란?
 
 소스코드를 컴파일 하지 않고 인터프리터가 줄단위로 프로그램을 실행시키는 언어로 통상 존재하는 응용소프트웨어를 제어하는 용도로 활용되는 언어를 통칭한다.
@@ -36,3 +40,17 @@ return sum(a, 2);
 ### ES2015
 동기식 비동기식을 동시에 접근할 수 있도록 구성한 새로운 모델, 아직 서버에선 commonJS를 많이 활용하지만 브라우저는 사실상 es2015(현대로는 es6)가 표준이라 보면 된다.
 
+## Inside of JS
+### undefined vs null vs undeclared
+`null` vs `undefined`
+`null`: 명시적으로 선언
+`undefined`: 값이 할당되지 않음
+`undeclared`: 선언이 되지 않음(`const`, `let`, `var`가 없음)
+
+### IIFE
+즉시 실행함수
+```javascript
+(function x() {
+    console.log('IIFE')
+})();
+```
