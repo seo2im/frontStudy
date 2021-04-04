@@ -18,6 +18,17 @@ This repository is frontend education information of author
 1. lexical scope
 2. closure
 
+### [DOM](https://github.com/seo2im/frontStudy/tree/master/DOM)
+1. What is DOM
+2. Access of DOM
+3. Interface
+4. Page life cycle
+
+### [CORS](https://github.com/seo2im/frontStudy/tree/master/CORS)
+1. Same-Origin Policy
+2. CORS
+3. Proxy
+
 ### [js](https://github.com/seo2im/frontStudy/tree/master/js)
 1. What is script language?
 2. What is Javascript
@@ -25,3 +36,4 @@ This repository is frontend education information of author
 4. IIFE
 5. host, inside object? 
 6. hoisting
+7. `==` ? `===` ?
