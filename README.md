@@ -29,6 +29,15 @@ This repository is frontend education information of author
 2. CORS
 3. Proxy
 
+### [CORS](https://github.com/seo2im/frontStudy/tree/master/ajax)
+1. Appearance of Ajax
+2. How to Ajax
+3. benefit of Ajax
+4. defeat of Ajax
+5. Ajax module
+6. CSR / SPA
+7. SSR with Hydration
+
 ### [js](https://github.com/seo2im/frontStudy/tree/master/js)
 1. What is script language?
 2. What is Javascript
