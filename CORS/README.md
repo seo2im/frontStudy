@@ -1,4 +1,4 @@
-# CORS
+\# CORS
 
 ### Same-Origin Policy
 
@@ -6,6 +6,26 @@
 -[MDN 문서](https://developer.mozilla.org/ko/docs/Web/Security/Same-origin_policy)-
 
 위에서 출처는 프로토콜, 호스트, 포트가 모두 동일한 서버로만 요청을 주고받는 정책이다. 따라서 클라이언트의 포트와 서버포트가 동일하지 않은 경우에 클라이언트가 서버로 요청을 보낼 시 에러가 발생하게 된다.
+
+### JSONP
+
+JSONP(JSON with Padding)은 CORS이전 cross-domain 정챡을 우회하여 요청을 하는데 사용한 방식이다. 
+
+웹 브라우저상의 JS는 외부 데이터에 요청이 불가하지만 `<script>`는 외부로의 요청이 가능하다. 따라서 아래 코드를 실행할 수 도 있지만 load된 데이터가 JSON이면 에러가 문법상 에러가 발생한다.
+```javascript
+<script type="application/javascript"
+        src="http://~~.com/api">
+</script>
+```
+
+JSONP는 여기에 parsing을 담당하는 callback을 함께 던짐으로써 요청에 적합한 데이터 형태를 받아오게끔 한다.
+```javascript
+<script type="application/javascript"
+        src="http://~~.com/api?callback=parseCallback">
+</script>
+```
+
+현재는 JSONP는 보안문제이슈로인해 CORS가 사용되며 JSONP는 해킹으로 간주되는 경우가 많다.
 
 ### CORS(Cross-Origin Resource Sharing)
 
