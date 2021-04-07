@@ -30,7 +30,7 @@ This repository is frontend education information of author
 3. CORS
 4. Proxy
 
-### [CORS](https://github.com/seo2im/frontStudy/tree/master/ajax)
+### [ajax](https://github.com/seo2im/frontStudy/tree/master/ajax)
 1. Appearance of Ajax
 2. How to Ajax
 3. Benefit of Ajax
@@ -38,6 +38,13 @@ This repository is frontend education information of author
 5. Ajax module
 6. CSR / SPA
 7. SSR with Hydration
+
+### [Promise](https://github.com/seo2im/frontStudy/tree/master/Promise)
+1. What is promise?
+2. State of Promise
+3. Example
+4. Promise Chain
+5. Promise.all()
 
 ### [js](https://github.com/seo2im/frontStudy/tree/master/js)
 1. What is script language?
