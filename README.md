@@ -46,6 +46,10 @@ This repository is frontend education information of author
 4. Promise Chain
 5. Promise.all()
 
+### [polyfill](https://github.com/seo2im/frontStudy/tree/master/polyfill)
+1. What is polyfill
+2. babel
+
 ### [js](https://github.com/seo2im/frontStudy/tree/master/js)
 1. What is script language?
 2. What is Javascript
