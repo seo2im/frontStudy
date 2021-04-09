@@ -50,6 +50,11 @@ This repository is frontend education information of author
 1. What is polyfill
 2. babel
 
+### [Sync_Async]
+1. Sync? Async?
+2. Web worker
+3. JS Async
+
 ### [js](https://github.com/seo2im/frontStudy/tree/master/js)
 1. What is script language?
 2. What is Javascript
