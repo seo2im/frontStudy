@@ -57,7 +57,11 @@ This repository is frontend education information of author
 
 ### [EventLoop](https://github.com/seo2im/frontStudy/tree/master/EventLoop)
 1. JS function Call
-2. Event Loop, Test Queue, Call Stack
+2. Event Loop, Tesk Queue, Call Stack
+
+### [IIFE](https://github.com/seo2im/frontStudy/tree/master/IIFE)
+1. What is IIFE
+2. Why IIFE
 
 ### [js](https://github.com/seo2im/frontStudy/tree/master/js)
 1. What is script language?
