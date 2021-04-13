@@ -63,6 +63,12 @@ This repository is frontend education information of author
 1. What is IIFE
 2. Why IIFE
 
+### [StoreMechanism](https://github.com/seo2im/frontStudy/tree/master/StoreMechanism)
+1. Which Mechanism?
+2. Cookie
+3. Session
+4. localStorage / sessionStorage
+
 ### [js](https://github.com/seo2im/frontStudy/tree/master/js)
 1. What is script language?
 2. What is Javascript
