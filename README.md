@@ -2,35 +2,35 @@
 
 This repository is frontend education information of author
 
-### [event](https://github.com/seo2im/frontStudy/tree/master/event)
+### [event](https://github.com/seo2im/frontStudy/tree/master/Knowledge/event)
 1. event bubling
 2. event capturing
 3. event delegation
 
-### [this](https://github.com/seo2im/frontStudy/tree/master/this)
+### [this](https://github.com/seo2im/frontStudy/tree/master/Knowledge/this)
 1. what is `this` in javascript
 2. `this`'s mean in different format.
 
-### [prototype](https://github.com/seo2im/frontStudy/tree/master/prototype)
+### [prototype](https://github.com/seo2im/frontStudy/tree/master/Knowledge/prototype)
 1. prototype
 
-### [closure](https://github.com/seo2im/frontStudy/tree/master/closure)
+### [closure](https://github.com/seo2im/frontStudy/tree/master/Knowledge/closure)
 1. lexical scope
 2. closure
 
-### [DOM](https://github.com/seo2im/frontStudy/tree/master/DOM)
+### [DOM](https://github.com/seo2im/frontStudy/tree/master/Knowledge/DOM)
 1. What is DOM
 2. Access of DOM
 3. Interface
 4. Page life cycle
 
-### [CORS](https://github.com/seo2im/frontStudy/tree/master/CORS)
+### [CORS](https://github.com/seo2im/frontStudy/tree/master/Knowledge/CORS)
 1. Same-Origin Policy
 2. JSONP
 3. CORS
 4. Proxy
 
-### [ajax](https://github.com/seo2im/frontStudy/tree/master/ajax)
+### [ajax](https://github.com/seo2im/frontStudy/tree/master/Knowledge/ajax)
 1. Appearance of Ajax
 2. How to Ajax
 3. Benefit of Ajax
@@ -39,14 +39,14 @@ This repository is frontend education information of author
 6. CSR / SPA
 7. SSR with Hydration
 
-### [Promise](https://github.com/seo2im/frontStudy/tree/master/Promise)
+### [Promise](https://github.com/seo2im/frontStudy/tree/master/Knowledge/Promise)
 1. What is promise?
 2. State of Promise
 3. Example
 4. Promise Chain
 5. Promise.all()
 
-### [polyfill](https://github.com/seo2im/frontStudy/tree/master/polyfill)
+### [polyfill](https://github.com/seo2im/frontStudy/tree/master/Knowledge/polyfill)
 1. What is polyfill
 2. babel
 
@@ -55,25 +55,29 @@ This repository is frontend education information of author
 2. Web worker
 3. JS Async
 
-### [EventLoop](https://github.com/seo2im/frontStudy/tree/master/EventLoop)
+### [EventLoop](https://github.com/seo2im/frontStudy/tree/master/Knowledge/EventLoop)
 1. JS function Call
 2. Event Loop, Tesk Queue, Call Stack
 
-### [IIFE](https://github.com/seo2im/frontStudy/tree/master/IIFE)
+### [IIFE](https://github.com/seo2im/frontStudy/tree/master/Knowledge/IIFE)
 1. What is IIFE
 2. Why IIFE
 
-### [StoreMechanism](https://github.com/seo2im/frontStudy/tree/master/StoreMechanism)
+### [StoreMechanism](https://github.com/seo2im/frontStudy/tree/master/Knowledge/StoreMechanism)
 1. Which Mechanism?
 2. Cookie
 3. Session
 4. localStorage / sessionStorage
 
-### [Browser]
+### [Browser](https://github.com/seo2im/frontStudy/tree/master/Knowledge/Browser)
 1. Browser Structure
 2. Rendering Engine
 
-### [js](https://github.com/seo2im/frontStudy/tree/master/js)
+### [SEO](https://github.com/seo2im/frontStudy/tree/master/Knowledge/SEO)
+1. What is SEO
+2. Strategy of SEO
+
+### [js](https://github.com/seo2im/frontStudy/tree/master/Knowledge/js)
 1. What is script language?
 2. What is Javascript
 3. CommonJS / AMD / ES2015
