@@ -77,6 +77,10 @@ This repository is frontend education information of author
 1. What is SEO
 2. Strategy of SEO
 
+### [FOUC](https://github.com/seo2im/frontStudy/tree/master/Knowledge/FOUC)
+1. What is FOUC
+2. How to solve
+
 ### [js](https://github.com/seo2im/frontStudy/tree/master/Knowledge/js)
 1. What is script language?
 2. What is Javascript
