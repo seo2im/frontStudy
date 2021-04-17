@@ -81,6 +81,11 @@ This repository is frontend education information of author
 1. What is FOUC
 2. How to solve
 
+### [WebSocket](https://github.com/seo2im/frontStudy/tree/master/Knowledge/WebSocket)
+1. Waht is Websocket
+2. Security
+3. Websocket Object
+
 ### [js](https://github.com/seo2im/frontStudy/tree/master/Knowledge/js)
 1. What is script language?
 2. What is Javascript
