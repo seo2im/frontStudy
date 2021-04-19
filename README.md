@@ -86,6 +86,11 @@ This repository is frontend education information of author
 2. Security
 3. Websocket Object
 
+### [WebWorker](https://github.com/seo2im/frontStudy/tree/master/Knowledge/WebSocket)
+1. What is WebWorker 
+2. How to use
+3. worker.js
+
 ### [js](https://github.com/seo2im/frontStudy/tree/master/Knowledge/js)
 1. What is script language?
 2. What is Javascript
