@@ -95,6 +95,11 @@ This repository is frontend education information of author
 1. What is CrossBrowsing
 2. Way to CrossBrowsing
 
+### [HTTP Method](https://github.com/seo2im/frontStudy/tree/master/Knowledge/HttpMethod)
+1. What is HTTP Method
+2. GET vs POST
+3. POST vs PUT
+
 ### [js](https://github.com/seo2im/frontStudy/tree/master/Knowledge/js)
 1. What is script language?
 2. What is Javascript
